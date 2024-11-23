@@ -12,6 +12,13 @@ export const QrCardCustom = styled.div`
 
   border-radius: 20px;
 
+  @media (min-width: 1280px){
+    width: 320px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   & > h3 {
     margin-bottom: 16px;
 
@@ -34,8 +41,10 @@ export const QrCardImgCon = styled.div`
 
   overflow: hidden;
 
+  box-sizing: border-box;
+
   & > img {
-    width: 288px;
+    width: 100%;
     height: 288px;
   }
 `;
